@@ -3,8 +3,10 @@
 
 ### L1
 <br>
+
 #### I. Overview
 [L1 Notes from Tim Roughgarden](https://timroughgarden.github.io/fob21/l/l1.pdf)
+
 #### Blockchain Stack
 - Layer 0: the internet
 - Layer 1: consensus layer + a computer layer (60% of this tutorial)
