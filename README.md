@@ -1,7 +1,4 @@
-REMIX EXAMPLE PROJECT
-
-Remix example project is present when Remix loads for the very first time or there are no files existing in the File Explorer. 
-It contains 3 directories:
+### This project is coded on Remix.
 
 1. 'contracts': Holds three contracts with different complexity level, denoted with number prefix in file name.
 2. 'scripts': Holds two scripts to deploy a contract. It is explained below.
