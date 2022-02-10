@@ -1,8 +1,7 @@
-# Blockchain Tutorial
-- from [Tim Roughgarden](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA)
+# Foundations of Blockchain
+- From [Tim Roughgarden](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA)
 
 ### L1
-<br>
 
 #### I. Overview
 [L1 Notes from Tim Roughgarden](https://timroughgarden.github.io/fob21/l/l1.pdf)
@@ -20,8 +19,23 @@
 
 #### II. Digital Signature Schemes
 
+#### Consensus
+- Keep multiple machines ("nodes") in sync, even in the face of an unreliable network, malicious attacks.
+
+#### Permanent Assumptions
+- The Internet exists
+- Cryptography exists
+
+#### Definition of a DSS (defined by 3 algorithms)
+- Key generation algorithm (maps random seed => (pk, sk) pair)
+- Signing algorithm (maps msg+sk => msg+sig)
+- Verification algorithm (maps msg+sig+pk => "yes/no")
+
+#### Assumptions ("ideal signature")
+- Don't know sk => impossible to generate valid msg+sig
 
 
+<br>
 <details>
   <summary>This project was coded on Remix. Click here to see how to use Remix!</summary>
 
