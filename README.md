@@ -2,7 +2,9 @@
 - from [Tim Roughgarden](https://www.youtube.com/playlist?list=PLEGCF-WLh2RLOHv_xUGLqRts_9JxrckiA)
 
 ### L1
-
+<br>
+#### I. Overview
+[L1 Notes from Tim Roughgarden](https://timroughgarden.github.io/fob21/l/l1.pdf)
 #### Blockchain Stack
 - Layer 0: the internet
 - Layer 1: consensus layer + a computer layer (60% of this tutorial)
@@ -13,6 +15,10 @@
 - Blockchain is a new global computing paradigm, not owned by anyone
 - Not about digital money
 - Principles over protocols
+
+#### II. Digital Signature Schemes
+
+
 
 <details>
   <summary>This project was coded on Remix. Click here to see how to use Remix!</summary>
